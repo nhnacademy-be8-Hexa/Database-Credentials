@@ -11,6 +11,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 @Controller
 public class TestController {
 
+    // 데이터 베이스 연결 테스트를 위한 컨트롤러입니다.
+
     @Autowired
     private final SecureKeyManagerService secureKeyManagerService;
 
@@ -23,7 +25,7 @@ public class TestController {
         this.nativeQueryDatabaseService = nativeQueryDatabaseService;
     }
 
-    @GetMapping("/hello")
+    @GetMapping("/test1")
     @ResponseBody
     public String test(){
 
@@ -31,7 +33,7 @@ public class TestController {
 
     }
 
-    @GetMapping("/hello2")
+    @GetMapping("/test2")
     @ResponseBody
     public String test2(){
 

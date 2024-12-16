@@ -10,7 +10,7 @@ import java.util.List;
 @Service
 public class NativeQueryDatabaseService {
 
-    // 이건 데이터베이스에 접속이 되어서 쿼리수행 여부를 테스트 하기위해서 작성된 코드입니다.
+    // 이건 데이터베이스에 접속이 되어 쿼리수행 여부를 테스트 하기위해서 작성된 코드입니다.
 
     @Autowired
     private EntityManager entityManager;
